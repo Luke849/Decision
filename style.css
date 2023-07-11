@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button{
+    width: 90%;
+    height: 150px;
+}
