@@ -11,7 +11,21 @@ function addOthers() {
 }
 
 function others() {
-    getOthers
-    addOthers
-    getOthers
+    getOthers();
+    addOthers();
+    getOthers();
+}
+
+function getOwn() {
+    btnOwn.innerHTML = ownDecisions;
+}
+
+function addOwn() {
+    ownDecisions += 1;
+}
+
+function own() {
+    getOwn();
+    addOwn();
+    getOwn();
 }
