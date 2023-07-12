@@ -29,3 +29,14 @@ function own() {
     addOwn();
     getOwn();
 }
+
+try {
+    othersDecision=document.cookie; 
+    getOthers( );
+} catch (error) {
+    
+}
+
+window.addEventListener('beforeunload', function (e) {
+    this.document.cookie= btnOthers.textContent;
+});
