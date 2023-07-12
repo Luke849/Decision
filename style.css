@@ -1,14 +1,17 @@
 body{
     font-family: sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 button{
+    margin-top: 20px;
     width: 90%;
     height: 150px;
+    border: 0px;
+    font-size: 20px;
 }
 
 .others{
